@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap'); 
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 230px;
+    display: grid;
+    flex-direction: column;
+    padding: 1px;
+    gap: 12px;
+    margin-left: 200px;
+}
+
+/* Twitter Bird */
+.twitter-bird  {
+    padding: 10px;
+}
+
+.twitter-bird:hover {
+    background-color: #dfe2e4;
+}
+
+.twitter-img {
+    height: 30px !important;
+}
+
+/* Sidebar images */
+.sidebar-item img {
+    height: 24px;
+}
+
+.sidebar-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    padding: 11px;
+    padding-right: 24px;
+    border-radius: 24px;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sidebar-item:hover {
+    background-color: #e4eced;
+}
+
+.sidebar-item-text {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    color: #13191f;
+}
+
+.active {
+    font-weight: 600;
+}
+
+
+/* Tweet btn */
+.tweet-btn {
+    background-color: #1d9bf0;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 17px 0;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.12s ease;
+    margin-top: 3px;
+}
+
+.tweet-btn:hover {
+    background-color: #2992d8;
+}
+
+
